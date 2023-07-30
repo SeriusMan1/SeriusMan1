@@ -1,5 +1,4 @@
 #include <stdio.h>
-int	ft_real_atoi(char *str);
 void	ft_putchar(int c);
 
 int	ft_strlen(char *str)
