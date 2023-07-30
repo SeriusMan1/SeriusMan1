@@ -2,7 +2,7 @@ int	ft_real_atoi(char *str)
 {
 	int	i;
 	int	res;
-	int	sign
+	int	sign;
 
 	i = 0;
 	res = 0;
@@ -22,3 +22,4 @@ int	ft_real_atoi(char *str)
 		i++;
 	}
 	return (res * sign);
+}

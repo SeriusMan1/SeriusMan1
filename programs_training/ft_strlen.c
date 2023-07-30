@@ -1,7 +1,8 @@
+#include <stdio.h>
 int	ft_real_atoi(char *str);
-void	ft_putchar(char c);
+void	ft_putchar(int c);
 
-void	ft_strlen(char *str)
+int	ft_strlen(char *str)
 {
 	int	i;
 
@@ -13,13 +14,12 @@ void	ft_strlen(char *str)
 
 int	main(int ac, char **av)
 {
-	int	result;
+	char	*result;
 	
-	result = ft_real_atoi(av[1]);
+	result = av[1];
 	if (ac == 2)
 	{
-		ft_strlen(result);
-		ft_putcahr('\n');
+		printf("%d\n", ft_strlen(av[1]));
 	}
 	else
 		ft_putchar('\n');
